@@ -1,6 +1,6 @@
 /* Global */
 
-* {
+body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -22,6 +22,7 @@
     width: 100%;
     align-items: center;
     flex-direction: row;
+    background-color: black;
 }
 
 .text {
@@ -64,7 +65,7 @@
     align-items: center;
     min-height: 700px;
     height: auto;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -76,6 +77,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 /* Tea of the Month */
@@ -99,15 +101,16 @@
 }
 /* Locations */
 .locations {
-    margin: 0 0 auto;
     display: inline-flex;
-    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     background-image:url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*15lpy6u*_ga*MzM2Nzk4MDE3LjE2NTIwNjgyNTM.*_ga_3LRZM6TM9L*MTY1NDA0NTU3MC40Ni4xLjE2NTQwNDU1ODIuNDg.);
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    min-height: 500px;
     max-width: 1200px;
 }
 
@@ -117,7 +120,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1200px;
+    max-width: 1200px;
     background-color: transparent;
 }
 
@@ -129,14 +132,15 @@
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     opacity: 1;
-    background-color: black;
 }
 
 .location-name{
     width: 300px;
     height: auto;
     margin: 15px 20px;
+    background-color: black;
 }
 
 
